@@ -4,7 +4,16 @@
 <meta name="google-site-verification" content="vI6x1mHCqEQFBKI4lQs5N5GWfnWf-Nbg9ViuhDuJhSw" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>杜 Silva｜英語教室</title>
+<title>杜 Silva 英語教室｜大阪の中高生向け 英検・定期テスト・受験対策</title>
+<meta name="description" content="杜 Silva 英語教室は、大阪の中高生を対象とした英語専門の個別指導教室です。定期テスト対策、英検、大学受験に対応。海外4年・Monash大学卒の講師が、留学経験を活かした実践的な英語指導を行います。対面・オンライン両対応。無料体験受付中。">
+<meta name="keywords" content="杜 Silva,英語教室,大阪,英語塾,中学生,高校生,英検,定期テスト,大学受験,個別指導,オンライン英語,留学">
+<meta name="author" content="杜 Silva 英語教室">
+<meta property="og:title" content="杜 Silva 英語教室｜大阪の中高生向け 英検・定期テスト・受験対策">
+<meta property="og:description" content="大阪の中高生向け英語専門教室。英検・定期テスト・大学受験対策。海外経験を活かした実践指導。対面・オンライン対応。無料体験受付中。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lnakanoeng.github.io/engarcs/">
+<meta property="og:locale" content="ja_JP">
+<meta name="robots" content="index, follow">
 <style>
   :root{
     --ink:#1a1a1a;--sub:#8a8a8f;--line:#e2e2e0;--bg:#ffffff;--bg-soft:#f6f5f2;
@@ -15,14 +24,17 @@
   html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
   body{font-family:var(--font);color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased;line-height:1.5;letter-spacing:.01em;overflow-x:hidden;}
 
-  nav{position:fixed;top:0;left:0;right:0;z-index:1000;height:52px;background:rgba(255,255,255,.7);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.06);display:flex;align-items:center;justify-content:center;transition:background .3s,color .3s,border-color .3s;}
-  .nav-inner{width:100%;max-width:1040px;padding:0 26px;display:flex;align-items:center;justify-content:space-between;}
-  .brand{font-size:15px;font-weight:600;letter-spacing:.02em;}
-  .nav-links{display:flex;gap:26px;}
-  .nav-links a{color:inherit;text-decoration:none;font-size:12px;opacity:.8;transition:opacity .2s;}
+  nav{position:fixed;top:0;left:0;right:0;z-index:1000;height:68px;background:rgba(255,255,255,.72);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.06);display:flex;align-items:center;justify-content:center;transition:background .3s,color .3s,border-color .3s;}
+  .nav-inner{width:100%;max-width:1080px;padding:0 34px;display:flex;align-items:center;justify-content:space-between;}
+  .brand{font-size:20px;font-weight:600;letter-spacing:.04em;}
+  .nav-links{display:flex;gap:38px;}
+  .nav-links a{position:relative;color:inherit;text-decoration:none;font-size:15px;font-weight:500;letter-spacing:.02em;opacity:.85;transition:opacity .2s;padding:4px 0;}
+  .nav-links a::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:1.5px;background:currentColor;transform:scaleX(0);transform-origin:center;transition:transform .25s ease;}
   .nav-links a:hover{opacity:1;}
+  .nav-links a:hover::after{transform:scaleX(1);}
+  .nav-links .btn::after{display:none;}
   nav.on-dark{background:rgba(0,0,0,.34);color:#fff;border-bottom-color:rgba(255,255,255,.1);}
-  @media(max-width:760px){.nav-links{gap:14px;}.nav-links a{font-size:11px;}}
+  @media(max-width:760px){.nav{height:60px;}.nav-links{gap:22px;}.nav-links a{font-size:13px;}.brand{font-size:17px;}}
   @media(max-width:560px){.nav-links a:nth-child(n+4){display:none;}}
 
   .reveal{opacity:0;transform:translateY(30px);transition:opacity 1.1s cubic-bezier(.2,.6,.2,1),transform 1.1s cubic-bezier(.2,.6,.2,1);}
@@ -39,10 +51,13 @@
   .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-size:16px;font-weight:500;padding:14px 32px;border-radius:980px;transition:transform .2s,background .2s;}
   .btn:hover{background:var(--accent-deep);transform:scale(1.04);}
   .btn.big{font-size:17px;padding:16px 38px;}
+  .nav-links .btn{font-size:13px;font-weight:500;padding:9px 20px;line-height:1;}
+  @media(max-width:760px){.nav-links .btn{font-size:12px;padding:8px 16px;}}
   .scroll-hint{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);z-index:2;color:#fff;opacity:.65;font-size:11px;letter-spacing:.25em;animation:bob 2s ease-in-out infinite;}
   @keyframes bob{0%,100%{transform:translate(-50%,0);}50%{transform:translate(-50%,7px);}}
 
   section{position:relative;}
+  section[id], [id]{scroll-margin-top:88px;}
   .pad{padding:130px 26px;}
   .wrap{max-width:1000px;margin:0 auto;}
   .narrow{max-width:680px;margin:0 auto;}
@@ -177,6 +192,25 @@
   footer{background:var(--bg-soft);border-top:1px solid var(--line);padding:38px 26px;font-size:12px;color:var(--sub);}
   .foot{max-width:1000px;margin:0 auto;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "杜 Silva 英語教室",
+  "alternateName": "Silva English",
+  "description": "大阪の中高生向け英語専門の個別指導教室。定期テスト対策、英検、大学受験に対応。海外4年・Monash大学卒の講師が留学経験を活かした実践指導を行う。対面・オンライン両対応。",
+  "url": "https://lnakanoeng.github.io/engarcs/",
+  "email": "engarc.official@gmail.com",
+  "areaServed": "大阪府",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "大阪府",
+    "addressCountry": "JP"
+  },
+  "knowsLanguage": ["ja", "en"],
+  "teaches": ["英語", "英検", "定期テスト対策", "大学受験英語"]
+}
+</script>
 </head>
 <body>
 
